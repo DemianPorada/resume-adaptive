@@ -4,38 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume-Adaptive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=League+Spartan:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav>
-                <button>
-                    <svg>
-                        <use></use>
-                    </svg>
-                </button>
-            </nav>
+            <button class="button-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" viewBox="0 0 30 20" fill="none">
+                    <path d="M0 1H30" stroke="#21243D" stroke-width="1.6"/>
+                    <path d="M0 10H30" stroke="#21243D" stroke-width="1.6"/>
+                    <path d="M0 19H30" stroke="#21243D" stroke-width="1.6"/>
+                  </svg>
+            </button>
         </div>
     </header>
-    <section class="section">
-        <div class="container">
-            <h2></h2>
-            <ul>
-                <li></li>
-                <article>
-                    <h3></h3>
-                    <div>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </article>
-            </ul>
-        </div>
-    </section>
-    <section class="section">
-        
-    </section>
+    <main>
+        <section class="section">
+            <div class="container hero">
+                <img class="img" src="./John.jpg">
+                <h1 class="title">Hi, I am John,
+                    Creative Technologist </h1>
+                    <p class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button class="button" type="button">Download Resume</button>
+            </div>
+        </section>
+        <section class="section-main">
+            <div class="recent">
+                <p class="recent-post">Recent posts</p>
+            </div>
+            <div class="container-main">
+                <h2 class="pinpunkt">Making a design system from scratch</h2>
+                <div  class="container-data">
+                <p class="data feb">12 Feb 2020</p>
+                <p>|</p>
+                <p class="data design">Design, Pattern</p>
+                </div>
+                <p class="text-2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
